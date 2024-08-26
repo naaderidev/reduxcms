@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Lalezar";
+    src: url("../src/assets/fonts/Lalezar/Lalezar-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Vazir Regular";
+    src: url("../src/assets/fonts/Vazir/Vazirmatn-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Vazir Medium";
+    src: url("../src/assets/fonts/Vazir/Vazirmatn-Medium.ttf");
+  }
+}
+
+@layer components {
+  /*common*/
+  .icon {
+    @apply w-12 h-12 cursor-pointer;
+  }
+  .icon-lg {
+    @apply w-8 h-8 cursor-pointer;
+  }
+  .icon-md {
+    @apply w-6 h-6 cursor-pointer;
+  }
+  .icon-sm {
+    @apply w-5 h-5 cursor-pointer;
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .product-shadow {
+    box-shadow: rgb(253, 186, 116) 1.95px 1.95px 2.6px;
+  }
+  .border-shadow {
+    box-shadow: rgba(253, 186, 116, 0.4) 0px 5px,
+      rgba(253, 186, 116, 0.3) 0px 10px, rgba(253, 186, 116, 0.2) 0px 15px,
+      rgba(253, 186, 116, 0.1) 0px 20px, rgba(253, 186, 116, 0.05) 0px 25px;
+  }
+  /*navbar*/
+  .nav-link {
+    @apply flex items-center gap-x-1 gap-y-4 pr-2 text-base text-teal-800 font-VazirMedium tracking-tightest leading-[56px] transition-colors py-4 md:py-0;
+  }
+  .nav-link.active,
+  .nav-link:hover {
+    @apply bg-gray-900/15;
+  }
+  /*forms*/
+  .form-row {
+    @apply flex flex-col items-start my-1 sm:flex-row sm:items-center sm:justify-between;
+  }
+  .form-col-50 {
+    @apply flex flex-col items-start w-full mr-4;
+  }
+  .form-col-50 input,
+  .form-col-50 select {
+    @apply w-[80%] my-2 py-2 px-4 border-none outline-none rounded bg-white text-xs font-VazirMedium;
+  }
+  .form-col-50 label,
+  .form-col-50 legend,
+  .edit-form-col-50 label,
+  .edit-form-col-50 legend {
+    @apply text-teal-800 text-sm font-Lalezar;
+  }
+  .edit-form-col-50 {
+    @apply flex flex-col items-start w-full mr-4;
+  }
+  .edit-form-col-50 input,
+  .edit-form-col-50 textarea,
+  .edit-form-col-50 select {
+    @apply w-[80%] my-2 py-2 px-4 border border-teal-800 outline-none rounded bg-white text-xs font-VazirMedium;
+  }
+
+  .btn-gradient {
+    @apply transition-colors hover:bg-gradient-to-r from-green-200 to-green-300 text-teal-800 border border-green-200 rounded-lg px-2 py-1.5;
+  }
+  .btn-form {
+    @apply text-sm md:text-base font-VazirMedium btn-gradient rounded-lg w-full;
+  }
+  .input-form {
+    @apply text-sm font-VazirMedium outline-none p-3 rounded-lg;
+  }
+  /*table*/
+  .cms-table {
+    @apply w-full my-4;
+  }
+  .cms-table thead {
+    @apply bg-green-200 text-teal-800;
+  }
+  .cms-table th {
+    @apply p-2 font-Lalezar text-sm md:text-base;
+  }
+  .cms-table tr {
+    @apply border-b-2 border-white;
+  }
+  .cms-table td {
+    @apply p-2 text-xs md:text-sm text-center text-gray-700 font-VazirMedium;
+  }
+  .cms-btn {
+    @apply flex-center w-fit sm:w-20 p-1.5 text-sm font-Lalezar mx-auto my-1 border-none outline-none rounded-md bg-green-200 text-teal-800 cursor-pointer transition-all;
+  }
+  .cms-btn:hover {
+    @apply bg-teal-800 text-white;
+  }
+  .cms-btn.delete:hover {
+    @apply bg-red-500 text-white;
+  }
+  .cms-image {
+    @apply w-10 h-10 md:w-16 md:h-16 rounded-full border border-teal-800 mx-auto;
+  }
+  /*Modal*/
+  .modal {
+    @apply fixed inset-0 z-10 bg-gray-800/70 w-full h-full flex-center opacity-0 invisible transition-all;
+  }
+  .modal.active {
+    @apply visible opacity-100;
+  }
+  .modal-wrapper {
+    @apply p-10 bg-green-100 rounded-md;
+  }
+  .modal-wrapper h1 {
+    @apply text-xl font-Lalezar text-teal-800;
+  }
+  .modal-wrapper p {
+    @apply text-base font-VazirMedium text-teal-800;
+  }
+  .modal-btns {
+    @apply flex-center gap-3 mt-5;
+  }
+  .modal-btn {
+    @apply border-none outline-none py-1 px-3 rounded-md text-gray-200 text-lg font-Lalezar w-fit;
+  }
+  .accept-btn {
+    @apply bg-teal-800;
+  }
+  .reject-btn {
+    @apply bg-red-500;
+  }
+}

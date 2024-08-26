@@ -1,0 +1,287 @@
+{
+  "courses": [
+    {
+      "title": "آموزش صفر تا صد جاوااسکریپت",
+      "teacher": "سعیدی راد",
+      "category": "frontend",
+      "price": "1150000",
+      "duration": "102",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "id": "2"
+    },
+    {
+      "title": "آموزش پروژه محور انگیولار",
+      "teacher": "اسکندری",
+      "category": "frontend",
+      "price": "680000",
+      "duration": "65",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
+      "id": "5",
+      "teacherId": 3
+    },
+    {
+      "id": "1feb",
+      "title": "آموزش پروژه محور لاراول",
+      "teacher": "نادری",
+      "category": "backend",
+      "price": "1650000",
+      "duration": "95",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+    },
+    {
+      "title": "آموزش صفر تا صد ری اکت همراه با دپلوی پروژه",
+      "teacher": "سعیدی راد",
+      "category": "frontend",
+      "price": "2500000",
+      "duration": "125",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "id": "fdcf"
+    },
+    {
+      "id": "46e6",
+      "title": "آموزش کامل دیجنگو با پروژه های کاربردی",
+      "teacher": "الهی پور",
+      "category": "security",
+      "price": "1750000",
+      "duration": "80",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+    },
+    {
+      "id": "a662",
+      "title": "آموزش صفر تا صد php",
+      "teacher": "علیرضا موحدی نیا",
+      "category": "backend",
+      "price": "1500000",
+      "duration": "55",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+    }
+  ],
+  "teachers": [
+    {
+      "password": "12345679",
+      "email": "baharehnaderi@gmail.com",
+      "phone": "09193571290",
+      "username": "naderi213",
+      "name": "بهاره نادری",
+      "courses": "2",
+      "id": "1"
+    },
+    {
+      "name": "سعیدی راد",
+      "username": "saeedirad",
+      "password": "12345679",
+      "email": "saeedirad@gmail.com",
+      "phone": "09193571291",
+      "courses": 3,
+      "id": "2"
+    },
+    {
+      "password": "12345679",
+      "email": "eskandari@gmail.com",
+      "phone": "09193571292",
+      "username": "eskandari",
+      "name": "اسکندری پور",
+      "courses": 5,
+      "id": "3"
+    },
+    {
+      "name": "الهی پور",
+      "username": "elahipoor",
+      "password": "12345679",
+      "email": "elaahi@gmail.com",
+      "phone": "09193571293",
+      "courses": "3",
+      "id": "4"
+    },
+    {
+      "name": "علیرضا موحدی نیا",
+      "username": "mvhd1991",
+      "password": "mvhd1991",
+      "email": "movahedi@gmail.com",
+      "phone": "09122587400",
+      "courses": "1",
+      "id": "e384"
+    },
+    {
+      "id": "7e00",
+      "name": "بهرام حسن پور",
+      "username": "bahram1899",
+      "phone": "09123257484",
+      "email": "hassanpoor@gmail.com",
+      "password": "bahram1899",
+      "confirm": "bahram1899"
+    },
+    {
+      "id": "a1d2",
+      "name": "فاطمه حقیقت دوست",
+      "username": "fateme1899",
+      "phone": "09364585102",
+      "email": "haqiqat@gmail.com",
+      "password": "fateme1899",
+      "confirm": "fateme1899"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "زهرا محمدی",
+      "username": "mohammadi",
+      "password": "mohammadipass",
+      "phone": "09123571290",
+      "email": "mohammadi@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "عطیه رضوی",
+      "username": "razavi",
+      "password": "razavipass",
+      "phone": "09123571291",
+      "email": "razavi@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "مهراب گرجستانی",
+      "username": "gorjestani",
+      "password": "gorjestanipass",
+      "phone": "09123571292",
+      "email": "gorjestani@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "مهدیه جهان دیده",
+      "username": "jahandideh",
+      "password": "jahandidehpass",
+      "phone": "09123571293",
+      "email": "jahandideh@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "صادق دیدگاه",
+      "username": "didgah",
+      "password": "didgahpass",
+      "phone": "09123571294",
+      "email": "didgah@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "محمد رضایی",
+      "username": "rezaei",
+      "password": "rezaeipass",
+      "phone": "09123571295",
+      "email": "rezaei@gmail.com"
+    },
+    {
+      "id": "8",
+      "name": "محبوبه یزدان پناه",
+      "username": "yazdanpanah",
+      "password": "yazdanpanahpass",
+      "phone": "09123571297",
+      "email": "yazdanpanah@gmail.com"
+    },
+    {
+      "id": "2e79",
+      "name": "حمید علیخانی",
+      "username": "alikhani",
+      "email": "alikhani@yahoo.com",
+      "phone": "09123691020",
+      "password": "alikhani"
+    }
+  ],
+  "comments": [
+    {
+      "message": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. ویرایش شده!!",
+      "courseId": "آموزش مقدماتی فریمورک ویو جی اس",
+      "userId": 3,
+      "isActive": "1",
+      "score": 3,
+      "id": "1"
+    },
+    {
+      "message": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است ",
+      "courseId": "آموزش پروژه محور فریمورک جنگو پایتون",
+      "userId": 1,
+      "isActive": "1",
+      "score": 4,
+      "id": "2"
+    },
+    {
+      "message": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
+      "courseId": "آموزش پروژه محور PWA",
+      "userId": 4,
+      "isActive": 1,
+      "score": 3,
+      "id": "3"
+    },
+    {
+      "message": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
+      "courseId": "آموزش پروژه محور تایپ اسکریپت",
+      "userId": 7,
+      "isActive": "0",
+      "score": 2,
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "message": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
+      "courseId": "آموزش پروژه محور فریمورک جنگو پایتون",
+      "userId": 6,
+      "isActive": 1,
+      "score": 5
+    },
+    {
+      "id": "6",
+      "message": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
+      "courseId": "آموزش پروژه محور فریمورک جنگو پایتون",
+      "userId": 4,
+      "isActive": 1,
+      "score": 5
+    }
+  ],
+  "discounts": [
+    {
+      "code": "nowruz",
+      "percent": "12",
+      "startDate": "2024-03-09",
+      "stopDate": "2024-03-31",
+      "id": "1"
+    },
+    {
+      "id": "4d97",
+      "code": "eydy",
+      "percent": 25,
+      "startDate": "2024-04-20",
+      "stopDate": "2024-04-12"
+    },
+    {
+      "id": "9b50",
+      "code": "eve-1403",
+      "percent": "10",
+      "startDate": "2024-04-01",
+      "stopDate": "2024-04-05"
+    },
+    {
+      "id": "7adb",
+      "code": "summer",
+      "percent": "5",
+      "startDate": "2024-08-21",
+      "stopDate": "2024-08-24"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "title": "فرانت اند",
+      "value": "frontend"
+    },
+    {
+      "id": "2",
+      "title": "بک اند",
+      "value": "backend"
+    },
+    {
+      "id": "3",
+      "title": "امنیت و شبکه",
+      "value": "security"
+    }
+  ]
+}
