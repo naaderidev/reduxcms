@@ -1,0 +1,6 @@
+1. you should use https://reduxcms-server.liara.run for BASE_URL in deployment instead of const BASE_URL = "http://localhost:3000"
+2. create a react platform in liara and run commands below:
+-liara login
+-liara deploy --platform=react
+
+** the last command use --platform=react because I have used vite instead of cra to create project

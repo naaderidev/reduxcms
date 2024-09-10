@@ -24,7 +24,7 @@ The CMS allows users to easily manage website content and data through an intuit
 
 Overall, this project showcases a well-designed, feature-rich CMS tailored for Persian-language educational websites, with a modern technology stack and strong focus on usability and responsiveness.
 
-**This version is deployed hear: https://reduxcms.liara.run/**
+**This version is deployed here: https://reduxcms.liara.run/**
 **jserver folder is used for deployment & you wonn't need it for running on localhost**
 
 ## Technologies Used
